@@ -1,0 +1,24 @@
+From d239488e539d8574265bd02f3ac0c1516204042b Mon Sep 17 00:00:00 2001
+From: rupa <rupa@gmail.com>
+Date: Thu, 15 Jan 2026 17:24:48 +0530
+Subject: [PATCH 2/3] for patch
+
+---
+ gitdemo1.txt | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+diff --git a/gitdemo1.txt b/gitdemo1.txt
+index 34d82d4..afaee63 100644
+--- a/gitdemo1.txt
++++ b/gitdemo1.txt
+@@ -1 +1,5 @@
+-my name is rupa and i am doing my 1st project.
+\ No newline at end of file
++my name is rupa and i am doing my 1st project.
++rupa
++praveen
++neha
++
+-- 
+2.52.0.windows.1
+

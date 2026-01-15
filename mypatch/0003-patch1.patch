@@ -1,0 +1,22 @@
+From 59e02aefcc6845d10986e352058b6aca0856d673 Mon Sep 17 00:00:00 2001
+From: rupa <rupa@gmail.com>
+Date: Thu, 15 Jan 2026 17:25:57 +0530
+Subject: [PATCH 3/3] patch1
+
+---
+ gitdemo1.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/gitdemo1.txt b/gitdemo1.txt
+index afaee63..6cc1845 100644
+--- a/gitdemo1.txt
++++ b/gitdemo1.txt
+@@ -2,4 +2,4 @@ my name is rupa and i am doing my 1st project.
+ rupa
+ praveen
+ neha
+-
++ammuu
+-- 
+2.52.0.windows.1
+
