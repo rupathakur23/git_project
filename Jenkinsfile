@@ -1,12 +1,23 @@
 pipeline {
     agent any
     stages {
-        stage('Build') {
+        stage('terraform init') {
             steps {
-                echo 'Building application'
-                echo 'Building application'
-		echo 'update from github'
-                
+                sh 'terraform init'
+                echo "initialisation is done"
+
+            }
+        }
+         stage('terraform plan') {
+            steps {
+                sh 'terraform plan'
+                echo "plan is done"
+            }
+        }
+          stage('terraform apply') {
+            steps {
+                sh 'terraform apply -auto-approve'
+                echo "creation is done"
             }
         }
     }
