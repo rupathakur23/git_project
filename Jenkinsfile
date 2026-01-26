@@ -35,6 +35,7 @@ pipeline {
      post {
         success {
             echo "EC2 Created Successfully "
+            echo "now you can do patching"
         }
         failure {
             echo "Terraform Failed "
