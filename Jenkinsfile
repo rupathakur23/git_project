@@ -38,7 +38,7 @@ pipeline {
         }
         failure {
             echo "Terraform Failed "
-            echo " now patching can be performed"
+            
         }
     }
 }
